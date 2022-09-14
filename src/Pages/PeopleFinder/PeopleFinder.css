@@ -1,0 +1,65 @@
+.people-finder {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 561px;
+  gap: 30px;
+}
+
+h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 110%;
+  color: #112467;
+}
+
+p,
+input,
+h3 {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.025em;
+  color: #333333;
+}
+
+p {
+  color: #333333;
+}
+
+.persons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  scroll-behavior: auto;
+}
+
+.search-input {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f1f1f1f6;
+}
+
+.has-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 34px;
+  }
+}

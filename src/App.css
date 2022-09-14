@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-air {
+  margin-top: 3%;
+  margin-left: 8%;
+  width: 60px;
+  height: 24px;
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 34px;
+  }
+  p {
+    text-align: center;
+  }
+}
